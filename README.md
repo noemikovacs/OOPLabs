@@ -1,2 +1,2 @@
 # OOPLabs
-HotelRoom
+## **Probleme laborator** la materia **OOP**
