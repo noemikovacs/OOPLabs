@@ -7,6 +7,7 @@ import Service.ClientService;
 import Service.MedicamentService;
 import Service.TransactionService;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class Console {
@@ -180,9 +181,19 @@ public class Console {
             String CNP = scanner.nextLine();
             System.out.print("Enter date of registration (empty to not change for update): ");
             String dateOfRegistration = scanner.nextLine();
+            System.out.print("Enter date of birth (dd.mm.yyyy) :");
+            String dayOfBirth = scanner.nextLine();
 
-            //String id, String firstName, String lastName, String CNP, String dateOfRegistration
-            clientService.addOrUpdate(id, firstName, lastName, CNP, dateOfRegistration);
+            /*
+            Date date = Calendar.getInstance().getTime();
+
+            // Display a date in day, month, year format
+            DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+            String today = formatter.format(date);
+            System.out.println("Today : " + today);*/
+
+            //String id, String firstName, String lastName, String CNP, String dateOfRegistration, Date dateOfBirth
+            clientService.addOrUpdate(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
 
             System.out.println("Client added!");
         } catch (Exception ex) {

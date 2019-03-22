@@ -1,17 +1,21 @@
 package Domain;
 
+import java.util.Date;
+
 public class Client {
     //CRUD card client: id, nume, prenume, CNP, data nașterii (dd.mm.yyyy), data înregistrării (dd.mm.yyyy). CNP-ul trebuie să fie unic.
 
 
     private String id, firstName, lastName, CNP, dateOfRegistration;
+    private String dateOfBirth;
 
-    public Client(String id, String firstName, String lastName, String CNP, String dateOfRegistration) {
+    public Client(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dateOfBirth) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.CNP = CNP;
         this.dateOfRegistration = dateOfRegistration;
+        this.dateOfBirth = dateOfBirth;
     }
 
     @Override
@@ -22,6 +26,7 @@ public class Client {
                 ", lastName='" + lastName + '\'' +
                 ", CNP='" + CNP + '\'' +
                 ", dateOfRegistration='" + dateOfRegistration + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
                 '}';
     }
 
@@ -63,5 +68,13 @@ public class Client {
 
     public void setDateOfRegistration(String dateOfRegistration) {
         this.dateOfRegistration = dateOfRegistration;
+    }
+
+    public String getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 }

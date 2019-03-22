@@ -9,12 +9,27 @@ public class ClientService {
 
     private ClientRepository repository;
 
+    /**
+     *
+     * @param repository
+     */
+
     public ClientService(ClientRepository repository) {
 
         this.repository = repository;
     }
-    //Client(String id, String firstName, String lastName, String CNP, String dateOfRegistration)
-    public void addOrUpdate(String id, String firstName, String lastName, String CNP, String dateOfRegistration) {
+
+    /**
+     *
+     * @param id
+     * @param firstName
+     * @param lastName
+     * @param CNP
+     * @param dateOfRegistration
+     * @param dayOfBirth
+     */
+
+    public void addOrUpdate(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dayOfBirth) {
 
         Client existing = repository.findById(id);
 
@@ -32,10 +47,19 @@ public class ClientService {
             if (dateOfRegistration.isEmpty()) {
                 dateOfRegistration = existing.getDateOfRegistration();
             }
+            if (dayOfBirth.isEmpty()) {
+                dayOfBirth = existing.getDateOfBirth();
+            }
+
         }
-        Client client = new Client(id, firstName, lastName, CNP, dateOfRegistration);
+        Client client = new Client(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
         repository.upsert(client);
     }
+
+    /**
+     *
+     * @param id
+     */
 
     public void remove(String id) {
         repository.remove(id);

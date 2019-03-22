@@ -18,6 +18,17 @@ public class TransactionService {
     }
 
     //metodele crud
+
+    /**
+     *
+     * @param id
+     * @param idMedicament
+     * @param idCardClient
+     * @param nrOfItems
+     * @param date
+     * @param time
+     * @return
+     */
     public Transaction addOrUpdate(String id, String idMedicament, String idCardClient, int nrOfItems, String date, String time){
 
         Transaction existing = transactionRepository.findById(id);
@@ -39,6 +50,7 @@ public class TransactionService {
                time = existing.getTime();
             }
         }
+
 
        Medicament medicamentSold = medicamentRepository.findById(idMedicament);
        if (medicamentSold == null){

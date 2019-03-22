@@ -8,6 +8,7 @@ import Service.ClientService;
 import Service.MedicamentService;
 import Service.TransactionService;
 import UI.Console;
+import UI.NewConsole;
 
 public class Main {
 
@@ -21,11 +22,14 @@ public class Main {
         ClientRepository clientRepository = new ClientRepository(clientValidator);
         TransactionRepository transactionRepository = new TransactionRepository(transactionValidator);
 
-        MedicamentService cakeService = new MedicamentService(medicamentRepository);
+        MedicamentService medicamentService = new MedicamentService(medicamentRepository);
         ClientService clientService = new ClientService(clientRepository);
         TransactionService transactionService = new TransactionService(transactionRepository, medicamentRepository);
 
-        Console console = new Console(cakeService, clientService, transactionService);
-        console.run();
+        //Console console = new Console(medicamentService, clientService, transactionService);
+        //console.run();
+
+        NewConsole newConsole = new NewConsole(medicamentService, clientService, transactionService);
+        newConsole.run();
     }
 }

@@ -9,9 +9,23 @@ public class MedicamentService {
 
     private MedicamentRepository repository;
 
+    /**
+     *
+     * @param repository
+     */
+
     public MedicamentService(MedicamentRepository repository) {
         this.repository = repository;
     }
+
+    /**
+     *
+     * @param id
+     * @param name
+     * @param manufacturer
+     * @param price
+     * @param needRecipe
+     */
 
     public void addOrUpdate(String id, String name, String manufacturer, double price, boolean needRecipe) {
         Medicament existing = repository.findById(id);
@@ -35,6 +49,12 @@ public class MedicamentService {
         repository.upsert(medicament);
 
     }
+
+    /**
+     *
+     * @param name
+     * @return
+     */
     public double getPriceByID(String name){
         Medicament medicament = repository.findById(name);
         return medicament.getPrice();
