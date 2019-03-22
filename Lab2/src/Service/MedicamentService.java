@@ -1,22 +1,18 @@
 package Service;
 
 import Domain.Medicament;
-import Repository.MedicamentRepository;
+import Repository.IRepository;
 
 import java.util.List;
 
 public class MedicamentService {
 
-    private MedicamentRepository repository;
+    private IRepository<Medicament> repository;
 
-    /**
-     *
-     * @param repository
-     */
-
-    public MedicamentService(MedicamentRepository repository) {
+    public MedicamentService(IRepository<Medicament> repository) {
         this.repository = repository;
     }
+
 
     /**
      *
@@ -63,6 +59,7 @@ public class MedicamentService {
     public void remove(String id) {
         repository.remove(id);
     }
+
     public List<Medicament> getAll(){
         return repository.getAll();
     }

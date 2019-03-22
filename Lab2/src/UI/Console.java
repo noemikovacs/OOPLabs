@@ -7,7 +7,6 @@ import Service.ClientService;
 import Service.MedicamentService;
 import Service.TransactionService;
 
-import java.util.Date;
 import java.util.Scanner;
 
 public class Console {
@@ -81,6 +80,22 @@ public class Console {
                     System.out.println("Invalid option!");
                     break;
             }
+        }
+    }
+
+    private void handleViewTransInterval(){
+        try {
+            String date1, date2;
+            System.out.println("Add the start date (dd.mm.yyyy)");
+            date1 = scanner.nextLine();
+            System.out.println("Add the end date (dd.mm.yyyy)");
+            date2 = scanner.nextLine();
+
+            for (Transaction t: transactionService.PrintAllTransInterval(date1, date2)) {
+                System.out.println(t);
+            }
+        } catch (Exception ex) {
+            System.out.println("Errors:\n" + ex.getMessage());
         }
     }
 
@@ -184,14 +199,6 @@ public class Console {
             System.out.print("Enter date of birth (dd.mm.yyyy) :");
             String dayOfBirth = scanner.nextLine();
 
-            /*
-            Date date = Calendar.getInstance().getTime();
-
-            // Display a date in day, month, year format
-            DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-            String today = formatter.format(date);
-            System.out.println("Today : " + today);*/
-
             //String id, String firstName, String lastName, String CNP, String dateOfRegistration, Date dateOfBirth
             clientService.addOrUpdate(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
 
@@ -206,7 +213,8 @@ public class Console {
             System.out.println("1. Add or update a transaction");
             System.out.println("2. Remove a transaction");
             System.out.println("3. View all transactions");
-            System.out.println("4. Back");
+            System.out.println("4. View all transaction between 2 date");
+            System.out.println("5. Back");
 
             String option = scanner.nextLine();
             switch (option) {
@@ -220,6 +228,8 @@ public class Console {
                     handleViewTransactions();
                     break;
                 case "4":
+                    handleViewTransInterval();
+                case "5":
                     return;
                 default:
                     System.out.println("Invalid option!");

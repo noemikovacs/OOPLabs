@@ -1,6 +1,6 @@
 package Domain;
 
-public class ClientValidator {
+public class ClientValidator implements IValidator<Client> {
 
     //cnp validare
 

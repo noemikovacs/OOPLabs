@@ -1,6 +1,6 @@
 package Domain;
 
-public class MedicamentValidator {
+public class MedicamentValidator implements IValidator<Medicament> {
 
     //pretul sa fie strict pozitiv
 

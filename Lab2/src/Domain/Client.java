@@ -2,15 +2,15 @@ package Domain;
 
 import java.util.Date;
 
-public class Client {
+public class Client extends Entity{
     //CRUD card client: id, nume, prenume, CNP, data nașterii (dd.mm.yyyy), data înregistrării (dd.mm.yyyy). CNP-ul trebuie să fie unic.
 
 
-    private String id, firstName, lastName, CNP, dateOfRegistration;
+    private String  firstName, lastName, CNP, dateOfRegistration;
     private String dateOfBirth;
 
     public Client(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dateOfBirth) {
-        this.id = id;
+        super(id);
         this.firstName = firstName;
         this.lastName = lastName;
         this.CNP = CNP;
@@ -21,7 +21,7 @@ public class Client {
     @Override
     public String toString() {
         return "Client{" +
-                "id='" + id + '\'' +
+                "id='" + getId() + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", CNP='" + CNP + '\'' +
@@ -30,13 +30,13 @@ public class Client {
                 '}';
     }
 
-    public String getId() {
+    /*public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
-    }
+    }*/
 
     public String getFirstName() {
         return firstName;

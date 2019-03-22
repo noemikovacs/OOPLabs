@@ -1,16 +1,16 @@
 package Domain;
 
-public class Medicament {
+public class Medicament extends Entity{
     //CRUD medicament: id, nume, producător, preț, necesită rețetă. Prețul să fie strict pozitiv.
 
-    private String id;
+    //private String id;
     private String name;
     private String manufacturer;
     private double price;
     private boolean needRecipe;
 
     public Medicament(String id, String name, String manufacturer, double price, boolean needRecipe) {
-        this.id = id;
+        super(id);
         this.name = name;
         this.manufacturer = manufacturer;
         this.price = price;
@@ -20,7 +20,7 @@ public class Medicament {
     @Override
     public String toString() {
         return "Medicament{" +
-                "id='" + id + '\'' +
+                "id='" + getId() + '\'' +
                 ", name='" + name + '\'' +
                 ", manufacturer='" + manufacturer + '\'' +
                 ", price=" + price +
@@ -28,13 +28,13 @@ public class Medicament {
                 '}';
     }
 
-    public String getId() {
+    /*public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
-    }
+    }*/
 
     public String getName() {
         return name;

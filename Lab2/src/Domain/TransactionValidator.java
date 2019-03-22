@@ -1,6 +1,6 @@
 package Domain;
 
-public class TransactionValidator {
+public class TransactionValidator implements IValidator<Transaction> {
 
     //validarea tranzactiei
 

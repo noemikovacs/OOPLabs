@@ -1,21 +1,15 @@
 package Service;
 
 import Domain.Client;
-import Repository.ClientRepository;
+import Repository.IRepository;
 
 import java.util.List;
 
 public class ClientService {
 
-    private ClientRepository repository;
+    private IRepository<Client> repository;
 
-    /**
-     *
-     * @param repository
-     */
-
-    public ClientService(ClientRepository repository) {
-
+    public ClientService(IRepository<Client> repository) {
         this.repository = repository;
     }
 

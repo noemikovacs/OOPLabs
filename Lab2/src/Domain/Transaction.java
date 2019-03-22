@@ -1,18 +1,21 @@
 package Domain;
 
-public class Transaction {
+import java.util.Date;
+
+public class Transaction extends Entity {
 
    /* CRUD tranzacție: id, id_medicament, id_card_client (poate fi nul), nr_bucăți, data și ora.
     Dacă există un card client, atunci aplicați o reducere de 10% dacă medicamentul nu necesită rețetă și de 15%
     dacă necesită. Se tipărește prețul plătit și reducerile acordate.*/
 
-   private String id, idMedicament,idCardClient;
+   private String idMedicament,idCardClient;
    private int nrOfItems;
-   private String date, time;
+   Date date;
+   private String time;
    private double discount;
 
-    public Transaction(String id, String idMedicament, String idCardClient, int nrOfItems, String date, String time, double discount) {
-        this.id = id;
+    public Transaction(String id, String idMedicament, String idCardClient, int nrOfItems, Date date, String time, double discount) {
+        super(id);
         this.idMedicament = idMedicament;
         this.idCardClient = idCardClient;
         this.nrOfItems = nrOfItems;
@@ -24,7 +27,7 @@ public class Transaction {
     @Override
     public String toString() {
         return "Transaction{" +
-                "id=" + id +
+                "id=" + getId() +
                 ", idMedicament=" + idMedicament +
                 ", idCardClient=" + idCardClient +
                 ", nrOfItems=" + nrOfItems +
@@ -35,13 +38,13 @@ public class Transaction {
     }
 
 
-    public String getId() {
+    /*public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
-    }
+    }*/
 
     public String getIdMedicament() {
         return idMedicament;
@@ -67,11 +70,11 @@ public class Transaction {
         this.nrOfItems = nrOfItems;
     }
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 
