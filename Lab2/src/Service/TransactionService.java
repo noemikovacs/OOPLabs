@@ -10,17 +10,17 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class TransactionService extends MyException {
+public class TransactionService  {
 
     private IRepository<Transaction> transactionRepository;
     private IRepository<Medicament> medicamentRepository;
 
     public TransactionService(IRepository<Transaction> transactionRepository, IRepository<Medicament> medicamentRepository) {
-        this.transactionRepository = transactionRepository;
+            this.transactionRepository = transactionRepository;
         this.medicamentRepository = medicamentRepository;
     }
 
-//metodele crud
+    //metodele crud
 
     private
     Date convertToDate(String date){
@@ -32,7 +32,7 @@ public class TransactionService extends MyException {
             try{
                d = sdf.parse(date);
         } catch (ParseException e) {
-            throw new RuntimeException("Unparseable using " + e.getMessage());
+            throw new TransServExc(e.getMessage());
         }
         return d;
     }
@@ -91,6 +91,26 @@ public class TransactionService extends MyException {
 
     }
 
+    public List<Transaction> displayTransaction() {
+        int count = 0;
+        double avg=0;
+        List<Transaction> transList = new ArrayList<>();
+        for(Transaction t: transactionRepository.getAll()){
+            Medicament medicamentSold = medicamentRepository.findById(t.getIdMedicament());
+            avg += t.getDiscount()*t.getNrOfItems()*medicamentSold.getPrice();
+            count ++;
+        }
+        avg = avg / count;
+
+        for(Transaction t: transactionRepository.getAll()){
+            Medicament medicamentSold = medicamentRepository.findById(t.getIdMedicament());
+            if ( avg < t.getDiscount()*t.getNrOfItems()*medicamentSold.getPrice()){
+                transList.add(t);
+            }
+        }
+        return transList;
+    }
+
     public void remove(String id) {
 
         transactionRepository.remove(id);
@@ -102,7 +122,7 @@ public class TransactionService extends MyException {
     }
 
     //Afișarea tuturor tranzacțiilor dintr-un interval de zile dat.
-    public List<Transaction> PrintAllTransInterval(String date1, String date2) throws MyException {
+    public List<Transaction> PrintAllTransInterval(String date1, String date2) {
         Date d1, d2;
         d1 = convertToDate(date1);
         d2 = convertToDate(date2);
@@ -110,7 +130,7 @@ public class TransactionService extends MyException {
         List<Transaction> trans = new ArrayList<>();
 
         if (d1.compareTo(d2) > 0) { //date1 is later than date2
-            throw new MyException("The date must be inverse");
+            throw new TransServExc("The date must be inverse");
         } else {
             for (Transaction t : transactionRepository.getAll()) {
                 if (t.getDate().compareTo(d1) >= 0 && t.getDate().compareTo(d2) <= 0){

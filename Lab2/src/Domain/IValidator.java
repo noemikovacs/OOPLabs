@@ -2,5 +2,5 @@ package Domain;
 
 public interface IValidator<T extends Entity> {
 
-    void validate(T entity);
+    void validate(T entity) throws ClientValExc;
 }

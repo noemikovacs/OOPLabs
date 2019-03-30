@@ -214,6 +214,7 @@ public class Console {
             System.out.println("2. Remove a transaction");
             System.out.println("3. View all transactions");
             System.out.println("4. View all transaction between 2 date");
+            System.out.println("a. View all transaction with price higher than avg");
             System.out.println("5. Back");
 
             String option = scanner.nextLine();
@@ -229,12 +230,20 @@ public class Console {
                     break;
                 case "4":
                     handleViewTransInterval();
+                case "a":
+                    handleViewTransAvg();
                 case "5":
                     return;
                 default:
                     System.out.println("Invalid option!");
                     break;
             }
+        }
+    }
+
+    private void handleViewTransAvg() {
+        for(Transaction t : transactionService.displayTransaction()){
+            System.out.println(t);
         }
     }
 

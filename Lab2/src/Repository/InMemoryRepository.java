@@ -1,5 +1,6 @@
 package Repository;
 
+import Domain.ClientValExc;
 import Domain.Entity;
 import Domain.IValidator;
 
@@ -22,13 +23,14 @@ public class InMemoryRepository <T extends Entity> implements IRepository<T> {
     }
 
     public void upsert(T entity) {
-        validator.validate(entity);
-        storage.put(entity.getId(), entity);
+            validator.validate(entity);
+            storage.put(entity.getId(), entity);
+
     }
 
     public void remove(String id){
         if(!storage.containsKey(id)){
-            throw new RuntimeException("There is no entity with the given id to remove.");
+            throw new RepoExc("There is no entity with the given id to remove.");
         }
 
         storage.remove(id);

@@ -11,8 +11,17 @@ public class Transaction extends Entity {
    private String idMedicament,idCardClient;
    private int nrOfItems;
    Date date;
-   private String time;
+   private String date1,time;
    private double discount;
+
+    public Transaction(String id, String idMedicament, String idCardClient, int nrOfItems, String date1, String time) {
+        super(id);
+        this.idMedicament = idMedicament;
+        this.idCardClient = idCardClient;
+        this.nrOfItems = nrOfItems;
+        this.date1 = date1;
+        this.time = time;
+    }
 
     public Transaction(String id, String idMedicament, String idCardClient, int nrOfItems, Date date, String time, double discount) {
         super(id);

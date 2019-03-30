@@ -7,12 +7,12 @@ public class MedicamentValidator implements IValidator<Medicament> {
     /**
      * Validates a medicament
      * @param medicament
-     * @throws RuntimeException if there are validation errors.
+     * @throws MedicamentValExc if there are validation errors.
      */
 
     public void validate(Medicament medicament){
         if(medicament.getPrice() <= 0) {
-            throw new RuntimeException("The price must be a positive value!");
+            throw new MedicamentValExc("The price must be a positive value!");
         }
     }
 }

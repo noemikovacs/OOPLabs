@@ -1,19 +1,19 @@
 package Domain;
 
-public class ClientValidator implements IValidator<Client> {
+public class ClientValidator implements IValidator<Client>  {
 
     //cnp validare
 
     /**
      * Validates a client
      * @param client
-     * @throws RuntimeException if there are validation errors.
+     * @throws ClientValExc if there are validation errors.
      */
 
-    public void validate(Client client) {
+    public void validate(Client client) throws ClientValExc {
         if (!(client.getCNP().length() == 13)) {
-            throw new RuntimeException("The CNP is invalid, it must be 13 character!");
+            throw new ClientValExc ("The CNP is invalid, it must be 13 character!");
         }
-
     }
+
 }

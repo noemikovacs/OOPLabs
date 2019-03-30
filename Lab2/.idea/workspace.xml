@@ -9,25 +9,67 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FarmacieCopy$InMemoryRepositoryTest.ic" NAME="InMemoryRepositoryTest Coverage Results" MODIFIED="1553774049498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Repository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$ClientValExcTest.ic" NAME="ClientValExcTest Coverage Results" MODIFIED="1553348194844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$ClientTest.ic" NAME="ClientTest Coverage Results" MODIFIED="1553350770324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$MedicamentTest_constructorShouldSetAllFieldsCorrectly.ic" NAME="MedicamentTest.constructorShouldSetAllFieldsCorrectly Coverage Results" MODIFIED="1553350168883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$ClientServiceTest.ic" NAME="ClientServiceTest Coverage Results" MODIFIED="1553776561986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$MedicamentTest_gettersShouldReturnCorrectly.ic" NAME="MedicamentTest.gettersShouldReturnCorrectly Coverage Results" MODIFIED="1553349391245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$Main.ic" NAME="Main Coverage Results" MODIFIED="1553343098593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FarmacieCopy$TransactionServiceTest_getAllServiceShouldGetAllTransactions.ic" NAME="TransactionServiceTest.getAllServiceShouldGetAllTransactions Coverage Results" MODIFIED="1553884680998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$ClientTest_constructorShouldSetAllFieldsCorrectly.ic" NAME="ClientTest.constructorShouldSetAllFieldsCorrectly Coverage Results" MODIFIED="1553345336838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$Service_in_Farmacie.ic" NAME="Service in Farmacie Coverage Results" MODIFIED="1553884728792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$MedicamentServiceTest.ic" NAME="MedicamentServiceTest Coverage Results" MODIFIED="1553777843529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$TransactionTest.ic" NAME="TransactionTest Coverage Results" MODIFIED="1553761075285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$Tests_in_Farmacie.ic" NAME="Tests in Farmacie Coverage Results" MODIFIED="1553883867795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$MedicamentTest.ic" NAME="MedicamentTest Coverage Results" MODIFIED="1553350214806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$MedicamentValExcTest.ic" NAME="MedicamentValExcTest Coverage Results" MODIFIED="1553350553591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$ClientTest_shouldConvertCorrectToClient.ic" NAME="ClientTest.shouldConvertCorrectToClient Coverage Results" MODIFIED="1553344398254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FarmacieCopy$MedicamentTest_settersShouldSetFieldsCorrectly.ic" NAME="MedicamentTest.settersShouldSetFieldsCorrectly Coverage Results" MODIFIED="1553349766927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Domain.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="20" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/Console.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="478">
+              <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,28 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/MedicamentValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/UI/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/TransactionValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/TransactionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="4097">
+              <caret line="248" selection-start-line="248" selection-end-line="248" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,58 +90,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/ClientService.java">
+        <entry file="file://$PROJECT_DIR$/src/UI/medAdd.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/sample.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/ClientServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/MedicamentService.java">
+        <entry file="file://$PROJECT_DIR$/src/UI/MedicamentAddController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1539#1540#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#1619#1620#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/ClientRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/MedicamentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +131,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/TransactionRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/Tests/MedicamentServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="68">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/TransactionServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,7 +165,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -150,26 +175,58 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Repository/TransactionRepository.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Medicament.java" />
         <option value="$PROJECT_DIR$/src/Repository/ClientRepository.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Transaction.java" />
         <option value="$PROJECT_DIR$/src/Repository/MedicamentRepository.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Client.java" />
         <option value="$PROJECT_DIR$/src/UI/NewConsole.java" />
-        <option value="$PROJECT_DIR$/src/UI/Console.java" />
-        <option value="$PROJECT_DIR$/src/Domain/ClientValidator.java" />
-        <option value="$PROJECT_DIR$/src/Domain/MedicamentValidator.java" />
-        <option value="$PROJECT_DIR$/src/Domain/TransactionValidator.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Client.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Medicament.java" />
+        <option value="$PROJECT_DIR$/src/Domain/IValidator.java" />
+        <option value="$PROJECT_DIR$/src/Repository/IRepository.java" />
         <option value="$PROJECT_DIR$/src/Service/ClientService.java" />
         <option value="$PROJECT_DIR$/src/Service/MedicamentService.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ClientValExc.java" />
+        <option value="$PROJECT_DIR$/src/Domain/MedicamentValExc.java" />
+        <option value="$PROJECT_DIR$/src/Domain/TransactionValExc.java" />
+        <option value="$PROJECT_DIR$/src/Domain/TransactionValidator.java" />
+        <option value="$PROJECT_DIR$/src/Domain/MedicamentValidator.java" />
+        <option value="$PROJECT_DIR$/src/Repository/RepoExc.java" />
+        <option value="$PROJECT_DIR$/src/Repository/InMemoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/Service/MyException.java" />
+        <option value="$PROJECT_DIR$/src/Service/TransServExc.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Entity.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/ClientValExcTest.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ClientValExcTest.java" />
+        <option value="$PROJECT_DIR$/src/Domain/MedicamentTest.java" />
+        <option value="$PROJECT_DIR$/src/Domain/MedicamentValExcTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/MedicamentValExcTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/Domain/TransactionTest.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/Tests/TransactionTest.java" />
+        <option value="$PROJECT_DIR$/src/Repository/InMemoryRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/UI/ConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/Service/ClientServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/ClientServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/Service/MedicamentServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/MedicamentServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/UI/Common.java" />
+        <option value="$PROJECT_DIR$/src/UI/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Tests/TransactionServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/Service/TransactionServiceTest.java" />
         <option value="$PROJECT_DIR$/src/Service/TransactionService.java" />
+        <option value="$PROJECT_DIR$/src/UI/Console.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ClientValidator.java" />
+        <option value="$PROJECT_DIR$/src/UI/MedicamentAddController.java" />
+        <option value="$PROJECT_DIR$/src/UI/medAdd.fxml" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/UI/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/UI/Controller.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="1" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -178,39 +235,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Farmacie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Farmacie" type="462c0819:PsiDirectoryNode" />
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Farmacie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Farmacie" type="462c0819:PsiDirectoryNode" />
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Farmacie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Farmacie" type="462c0819:PsiDirectoryNode" />
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Farmacie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Farmacie" type="462c0819:PsiDirectoryNode" />
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Farmacie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Farmacie" type="462c0819:PsiDirectoryNode" />
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Farmacie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Farmacie" type="462c0819:PsiDirectoryNode" />
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarmacieCopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarmacieCopy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -219,14 +283,34 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553253169452" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HotelRoom" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553943493408" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Postuniv/Anul 1/Sem II/M1/OOP/Curs 4/Cofetarie" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Service" />
+      <recent name="UI" />
+      <recent name="Repository" />
+      <recent name="Domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,13 +324,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Farmacie" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Service in Farmacie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Farmacie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in Farmacie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Farmacie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionServiceTest.getAllServiceShouldGetAllTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Farmacie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TransactionServiceTest" />
+      <option name="METHOD_NAME" value="getAllServiceShouldGetAllTransactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionServiceTest.removeServiceShouldRemoveTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Farmacie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TransactionServiceTest" />
+      <option name="METHOD_NAME" value="removeServiceShouldRemoveTransaction" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,6 +395,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Service in Farmacie" />
+        <item itemvalue="JUnit.TransactionServiceTest.getAllServiceShouldGetAllTransactions" />
+        <item itemvalue="JUnit.TransactionServiceTest.removeServiceShouldRemoveTransaction" />
+        <item itemvalue="JUnit.Tests in Farmacie" />
       </list>
     </recent_temporary>
   </component>
@@ -271,17 +416,55 @@
       <workItem from="1552732528967" duration="4108000" />
       <workItem from="1552737153974" duration="262000" />
       <workItem from="1553241264731" duration="5413000" />
+      <workItem from="1553253985564" duration="4408000" />
+      <workItem from="1553273265779" duration="11252000" />
+      <workItem from="1553338497266" duration="12997000" />
+      <workItem from="1553759905034" duration="18233000" />
+      <workItem from="1553784493597" duration="4522000" />
+      <workItem from="1553881974727" duration="9074000" />
+      <workItem from="1553942680217" duration="568000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TransactionServiceTest_addOrUpdateServiceShouldAddTransaction - 2019.03.29 at 20h 08m 08s.xml">
+      <configuration name="TransactionServiceTest.addOrUpdateServiceShouldAddTransaction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionServiceTest_addOrUpdateServiceShouldAddTransaction - 2019.03.29 at 20h 22m 34s.xml">
+      <configuration name="TransactionServiceTest.addOrUpdateServiceShouldAddTransaction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_in_Farmacie - 2019.03.29 at 20h 22m 55s.xml">
+      <configuration name="Tests in Farmacie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionServiceTest - 2019.03.29 at 20h 23m 14s.xml">
+      <configuration name="TransactionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_in_Farmacie - 2019.03.29 at 20h 23m 58s.xml">
+      <configuration name="Tests in Farmacie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_in_Farmacie - 2019.03.29 at 20h 24m 31s.xml">
+      <configuration name="Tests in Farmacie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Service_in_Farmacie - 2019.03.29 at 20h 26m 20s.xml">
+      <configuration name="Service in Farmacie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionServiceTest_removeServiceShouldRemoveTransaction - 2019.03.29 at 20h 33m 39s.xml">
+      <configuration name="TransactionServiceTest.removeServiceShouldRemoveTransaction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionServiceTest_getAllServiceShouldGetAllTransactions - 2019.03.29 at 20h 38m 03s.xml">
+      <configuration name="TransactionServiceTest.getAllServiceShouldGetAllTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Service_in_Farmacie - 2019.03.29 at 20h 38m 51s.xml">
+      <configuration name="Service in Farmacie" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32863000" />
+    <option name="totallyTimeSpent" value="93917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,9 +472,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23726977" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2611051" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -300,7 +483,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.42578548" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,116 +493,211 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.09328358" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Domain/Medicament.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/ClientRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/Repository/MedicamentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/Repository/TransactionRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/UI/NewConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="799">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/Domain/IValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1227">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/RepoExc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding>
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/ClientValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/Service/MyException.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/Test.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#664#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ClientValExc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/ClientValExcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/MedicamentValExc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/MedicamentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MedicamentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/TransactionValExc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/TransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/ConsoleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Domain/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="121" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/InMemoryRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="73" selection-start-line="17" selection-start-column="9" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="119" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Medicament.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="99" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="99" />
+          <folding>
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/IRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/TransactionValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ClientRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/Repository/InMemoryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/MedicamentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/TransactionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="425">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -428,63 +706,244 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="957">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/MedicamentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state relative-caret-position="458">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/TransServExc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MedicamentValExcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/TransactionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ClientValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="576" selection-start-line="576" selection-end-line="576" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="2596" selection-start-line="2596" selection-end-line="2596" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MainWindow.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/UI/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="4097">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/medAdd.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/ClientServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MedicamentAddController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MedicamentServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/TransactionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Farmacie</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
