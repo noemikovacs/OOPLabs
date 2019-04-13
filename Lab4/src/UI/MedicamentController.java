@@ -85,7 +85,7 @@ public class MedicamentController {
             medicamentService.remove(id);
             medicine.clear();
             medicine.addAll(medicamentService.getAll());
-            spnId.getValueFactory().setValue(null);
+            //spnId.getValueFactory().setValue(null);
 
         } catch (RuntimeException rex) {
             Common.showValidationError(rex.getMessage());

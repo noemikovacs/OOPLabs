@@ -48,7 +48,12 @@
             </columns>
         </TableView>
 
+        <Button text="Add" fx:id="btnClAdd" onAction="#btnAddClientClick" />
+        <Button text="Remove" fx:id="btnRemoveClient" onAction="#btnRemoveClientClick" />
+        <Button text="Cancel" fx:id="btnClCancel" onAction="#btnClCancelClick" />
+    </VBox>
 
+    <VBox>
     <Spinner fx:id="spnId" initialValue="0" editable="true" min="0" max="2000000000"/>
     <TextField fx:id="txtFirstName" promptText="First Name"/>
     <TextField fx:id="txtLastName" promptText="Last Name"/>
@@ -56,12 +61,12 @@
     <TextField fx:id="txtDateOfRegistration" promptText="Date of Registration"/>
     <TextField fx:id="txtDateOfBirth" promptText="Date of birth"/>
 
-    <Button text="Add" fx:id="btnClAdd" onAction="#btnAddClientClick" />
-        <Button text="Remove" fx:id="btnRemoveClient" onAction="#btnRemoveClientClick" />
-    <Button text="Cancel" fx:id="btnClCancel" onAction="#btnClCancelClick" />
 
         <TextField fx:id="txtClientSearch" promptText="Client Search"/>
         <Button fx:id="btnClientSearch" text="Search client" onAction="#btnSearchClient"/>
+
+        <Button fx:id="btnUndoClient" text="Undo" onAction="#btnUndoClientClick"/>
+        <Button fx:id="btnRedoClient" text="Redo" onAction="#btnRedoClientClick"/>
 
     </VBox>
 </HBox>

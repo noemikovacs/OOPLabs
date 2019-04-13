@@ -44,8 +44,8 @@ public class Main extends Application {
         medicamentService.addOrUpdate("3","antibiotic","TFG",45.3, true);
 
         ClientService clientService = new ClientService(clientRepository,transactionRepository,medicamentRepository);
-        clientService.addOrUpdate("1","Pop","Popa","1231231231231","12.03.2001","12.03.1990");
-        clientService.addOrUpdate("2","P","Po","1231231531231","11.03.2008","10.03.1998");
+        clientService.add("1","Pop","Popa","1231231231231","12.03.2001","12.03.1990");
+        clientService.add("2","P","Po","1231231531231","11.03.2008","10.03.1998");
 
         TransactionService transactionService = new TransactionService(transactionRepository, medicamentRepository);
         transactionService.addOrUpdate("1","1","2",3,"12.03.2008","12");

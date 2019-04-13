@@ -67,7 +67,7 @@ public class ClientController {
 
         try{
             Client c = upsertClick();
-            clientService.addOrUpdate(c.getId(),c.getFirstName(),c.getLastName(),c.getCNP(),c.getDateOfRegistration(),c.getDateOfBirth());
+            clientService.add(c.getId(),c.getFirstName(),c.getLastName(),c.getCNP(),c.getDateOfRegistration(),c.getDateOfBirth());
             btnClCancelClick(actionEvent);
 
         } catch (RuntimeException rex) {
@@ -121,4 +121,15 @@ public class ClientController {
         }
     }
 
+    public void btnUndoClientClick(ActionEvent actionEvent) {
+        clientService.undo();
+        client.clear();
+        client.addAll(clientService.getAll());
+    }
+
+    public void btnRedoClientClick(ActionEvent actionEvent) {
+        clientService.redo();
+        client.clear();
+        client.addAll(clientService.getAll());
+    }
 }

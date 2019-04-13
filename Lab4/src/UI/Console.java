@@ -1,6 +1,5 @@
 package UI;
 
-import Domain.Client;
 import Domain.Medicament;
 import Domain.Transaction;
 import Service.*;
@@ -74,7 +73,7 @@ public class Console {
 
     private void displayCardClientByPriceRedObt() {
         System.out.println("Display all client card desc");
-        for(ClientCardByPriceRedObt ccbpro: clientService.sortDesc()){
+        for(Object ccbpro: clientService.sortDesc()){
             System.out.println(ccbpro);
         }
     }
@@ -101,7 +100,7 @@ public class Console {
         System.out.println("Are you searching for:");
         String text = scanner.nextLine();
         System.out.println("\nSearch results: ");
-        for (Client c : clientService.fullTextClientSearch(text)) {
+        for (Object c : clientService.fullTextClientSearch(text)) {
             System.out.println(c);
         }
         for (Medicament m: medicamentService.fullTextMedicamentSearch(text)){
@@ -237,7 +236,7 @@ public class Console {
     }
 
     private void handleViewClients() {
-        for (Client client : clientService.getAll()) {
+        for (Object client : clientService.getAll()) {
             System.out.println(client);
         }
     }
@@ -270,7 +269,7 @@ public class Console {
             String dayOfBirth = scanner.nextLine();
 
             //String id, String firstName, String lastName, String CNP, String dateOfRegistration, Date dateOfBirth
-            clientService.addOrUpdate(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
+            clientService.add(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
 
             System.out.println("Client added!");
         } catch (Exception ex) {

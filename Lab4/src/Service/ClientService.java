@@ -1,20 +1,21 @@
 package Service;
 
 import Domain.Client;
+import Domain.Entity;
 import Domain.Medicament;
 import Domain.Transaction;
 import Repository.IRepository;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
-public class ClientService {
+public class ClientService <T extends Entity> {
 
     private IRepository<Client> repository;
     private IRepository<Transaction> transRepo;
     private IRepository<Medicament> medicamentRepository;
+
+    private Stack<UndoRedoOperation<Client>> undoableOperations = new Stack<>();
+    private Stack<UndoRedoOperation<Client>> redoableOperations = new Stack<>();
 
     public ClientService(IRepository<Client> repository, IRepository<Transaction> transRepo,IRepository<Medicament> medicamentRepository) {
         this.repository = repository;
@@ -22,17 +23,9 @@ public class ClientService {
         this.medicamentRepository = medicamentRepository;
     }
 
-    /**
-     *
-     * @param id
-     * @param firstName
-     * @param lastName
-     * @param CNP
-     * @param dateOfRegistration
-     * @param dayOfBirth
-     */
 
-    public void addOrUpdate(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dayOfBirth) {
+
+    /*public void addOrUpdate(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dayOfBirth) {
 
         Client existing = repository.findById(id);
 
@@ -57,16 +50,40 @@ public class ClientService {
         }
         Client client = new Client(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
         repository.insert(client);
+    }*/
+
+    public void add(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dayOfBirth){
+        Client client = new Client (id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
+        List<Client> CNPcheck= repository.getAll();
+        for (Client c: CNPcheck) {
+            if (c.getCNP().equals(CNP)) {
+                throw new RuntimeException("error: existent CNP");
+            }
+        }
+        repository.insert(client);
+        undoableOperations.push(new AddOperation<>(repository, client));
     }
 
-    /**
-     *
-     * @param id
-     */
+    public void update(String id, String firstName, String lastName, String CNP, String dateOfRegistration, String dayOfBirth) {
+        Client clientActual = repository.findById(id);
+        Client clientUpdate = new Client(id, firstName, lastName, CNP, dateOfRegistration, dayOfBirth);
+        List<Client> clients = new ArrayList<>(repository.getAll());
+        for (Client c : clients) {
+            if (CNP.equals(c.getCNP()) && !CNP.equals(clientUpdate.getCNP())) {
+                throw new RuntimeException("error: existent CNP");
+            }
+        }
+        repository.update(clientUpdate);
+        undoableOperations.push(new UpdateOperation<>(repository, clientUpdate, clientActual));
+    }
+
+
 
     public void remove(String id) {
-
+        Client client = repository.findById(id);
         repository.remove(id);
+        undoableOperations.push(new DeleteOperation<>(repository, client));
+
     }
 
 
@@ -96,8 +113,6 @@ public class ClientService {
 
 
     public List<ClientCardByPriceRedObt> sortDesc(){
-
-
 
         Map<String,Double> freq = new HashMap<>();
         for(Transaction t: transRepo.getAll()){
@@ -129,5 +144,25 @@ public class ClientService {
 
         obtained.sort((m1,m2) -> Double.compare(m2.getPriveRedObtained(),m1.getPriveRedObtained()));
         return obtained;
+    }
+
+    public void undo() {
+        if (!undoableOperations.empty()) {
+            UndoRedoOperation<Client> lastOperation = undoableOperations.pop();
+            lastOperation.doUndo();
+            redoableOperations.add(lastOperation);
+
+        }
+    }
+
+    /**
+     * Redo the last operation
+     */
+    public void redo() {
+        if (!redoableOperations.empty()) {
+            UndoRedoOperation<Client> lastOperation = redoableOperations.pop();
+            lastOperation.doRedo();
+            undoableOperations.add(lastOperation);
+        }
     }
 }

@@ -26,7 +26,7 @@ public class InMemoryRepository <T extends Entity> implements IRepository<T> {
     public void insert(T entity) {
 
         if (storage.containsKey(entity.getId())) {
-            throw new RepoExc("A entity with " + entity.getId() + " already exists");
+            throw new RepoExc("An entity with  this id already exists");
         }
         validator.validate(entity);
         storage.put(entity.getId(), entity);
@@ -35,17 +35,17 @@ public class InMemoryRepository <T extends Entity> implements IRepository<T> {
     @Override
     public void update(T entity) {
         if (!storage.containsKey(entity.getId())) {
-            throw new RepoExc("A entity with %s id doesn't exists!");
+            throw new RepoExc("A entity with id doesn't exists!");
         }
         validator.validate(entity);
         storage.put(entity.getId(), entity);
     }
 
-    public void upsert(T entity) {
+    /*public void upsert(T entity) {
             validator.validate(entity);
             storage.put(entity.getId(), entity);
 
-    }
+    }*/
 
     public void remove(String id){
         if(!storage.containsKey(id)){

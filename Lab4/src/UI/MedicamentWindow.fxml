@@ -47,7 +47,7 @@
         <Button fx:id="btnRedoMedicine" text="Redo" onAction="#btnRedoMedicineClick"/>
 
     </VBox>
-
+<HBox>
 <VBox>
     <Spinner fx:id="spnId" initialValue="0" editable="true" min="0" max="2000000000"/>
     <TextField fx:id="txtName" promptText="Name"/>
@@ -58,4 +58,5 @@
     <Button text="Add" fx:id="btnAdd" onAction="#btnAddClick" />
     <Button text="Cancel" fx:id="btnCancel" onAction="#btnCancelClick" />
 </VBox>
+</HBox>
 </HBox>

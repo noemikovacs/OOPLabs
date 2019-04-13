@@ -21,7 +21,7 @@ class ClientServiceTest {
 
         Client client = new Client("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
 
-        clientService.addOrUpdate("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
+        clientService.add("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
 
         assertEquals(client,clientService.getAll().get(0));
         assertEquals(1, clientService.getAll().size());
@@ -39,7 +39,7 @@ class ClientServiceTest {
 
         Client client = new Client("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
 
-        clientService.addOrUpdate("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
+        clientService.add("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
         clientService.remove("1");
 
         assertEquals(0, clientService.getAll().size());
@@ -58,8 +58,8 @@ class ClientServiceTest {
         Client client = new Client("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
         Client client1 = new Client("2","Ion","Pop","1234587890123","12.03.2019","05.02.2001");
 
-        clientService.addOrUpdate("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
-        clientService.addOrUpdate("2","Ion","Pop","1234587890123","12.03.2019","05.02.2001");
+        clientService.add("1","Ioana","Pop","1234567890123","12.03.2019","05.02.2001");
+        clientService.add("2","Ion","Pop","1234587890123","12.03.2019","05.02.2001");
 
         assertEquals(client, clientService.getAll().get(0));
         assertEquals(client1, clientService.getAll().get(1));

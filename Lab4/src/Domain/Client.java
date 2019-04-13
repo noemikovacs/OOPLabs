@@ -1,6 +1,7 @@
 package Domain;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class Client extends Entity{
     //CRUD card client: id, nume, prenume, CNP, data nașterii (dd.mm.yyyy), data înregistrării (dd.mm.yyyy). CNP-ul trebuie să fie unic.

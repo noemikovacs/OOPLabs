@@ -128,7 +128,7 @@ public class MainController {
         Client editedClient = (Client)cellEditEvent.getRowValue();
         try {
             String newFName = (String)cellEditEvent.getNewValue();
-            clientService.addOrUpdate(editedClient.getId(),newFName, editedClient.getLastName(), editedClient.getCNP(),editedClient.getDateOfRegistration(),editedClient.getDateOfBirth());
+            clientService.add(editedClient.getId(),newFName, editedClient.getLastName(), editedClient.getCNP(),editedClient.getDateOfRegistration(),editedClient.getDateOfBirth());
             editedClient.setFirstName(newFName);
 
         } catch (RuntimeException rex) {

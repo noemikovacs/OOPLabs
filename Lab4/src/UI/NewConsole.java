@@ -47,7 +47,7 @@ public class NewConsole {
                     break;
 
                 case "AddCLient":
-                    clientService.addOrUpdate(felii[1],felii[2],felii[3],felii[4],felii[5],felii[6]);
+                    clientService.add(felii[1],felii[2],felii[3],felii[4],felii[5],felii[6]);
                     System.out.println("Client added!");
                     break;
                 case "AddTransaction":
