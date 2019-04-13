@@ -64,7 +64,7 @@ public class MedicamentController {
             medicamentService.addOrUpdate(id,name,producer,price,recipe);
             medicine.clear();
             medicine.addAll(medicamentService.getAll());
-
+            spnId.getValueFactory().setValue(null);
             txtName.clear();
             txtManufacturer.clear();
             txtPrice.clear();
@@ -85,6 +85,7 @@ public class MedicamentController {
             medicamentService.remove(id);
             medicine.clear();
             medicine.addAll(medicamentService.getAll());
+            spnId.getValueFactory().setValue(null);
 
         } catch (RuntimeException rex) {
             Common.showValidationError(rex.getMessage());
@@ -106,5 +107,17 @@ public class MedicamentController {
         } catch (RuntimeException rex) {
             Common.showValidationError(rex.getMessage());
         }
+    }
+
+    public void btnUndoMedicineClick(ActionEvent actionEvent) {
+        medicamentService.undo();
+        medicine.clear();
+        medicine.addAll(medicamentService.getAll());
+    }
+
+    public void btnRedoMedicineClick(ActionEvent actionEvent) {
+        medicamentService.redo();
+        medicine.clear();
+        medicine.addAll(medicamentService.getAll());
     }
 }

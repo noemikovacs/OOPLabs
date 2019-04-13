@@ -6,15 +6,15 @@ import Domain.Transaction;
 import Repository.IRepository;
 import Repository.InMemoryRepository;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MedicamentService {
 
     private IRepository<Medicament> medrepository;
     private IRepository<Transaction> transactionIRepository;
+
+    private Stack<UndoRedoOperation<Medicament>> undoableOperations = new Stack<>();
+    private Stack<UndoRedoOperation<Medicament>> redoableOperations = new Stack<>();
 
     public MedicamentService(IRepository<Medicament> repository, IRepository<Transaction> transactionIRepository) {
 
@@ -54,7 +54,7 @@ public class MedicamentService {
         }
         Medicament medicament = new Medicament(id, name, manufacturer, price,needRecipe);
         medrepository.insert(medicament);
-
+        undoableOperations.push(new AddOperation<>(medrepository, medicament));
     }
 
     /**
@@ -68,7 +68,9 @@ public class MedicamentService {
     }
 
     public void remove(String id) {
+        Medicament medicament = medrepository.findById(id);
         medrepository.remove(id);
+        undoableOperations.push(new AddOperation<>(medrepository, medicament));
     }
 
     public List<Medicament> getAll(){
@@ -123,6 +125,23 @@ public class MedicamentService {
 
         orderedMed.sort((m1,m2) -> Integer.compare(m2.getNrOfSldItems(),m1.getNrOfSldItems()));
         return orderedMed;
+    }
+
+    public void undo() {
+        if (!undoableOperations.empty()) {
+            UndoRedoOperation<Medicament> lastOperation = undoableOperations.pop();
+            lastOperation.doUndo();
+            redoableOperations.add(lastOperation);
+
+        }
+    }
+
+    public void redo() {
+        if (!redoableOperations.empty()) {
+            UndoRedoOperation<Medicament> lastOperation = redoableOperations.pop();
+            lastOperation.doRedo();
+            undoableOperations.add(lastOperation);
+        }
     }
 
 }

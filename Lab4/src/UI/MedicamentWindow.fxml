@@ -43,9 +43,12 @@
         </TableView>
         <Button text="Add medicament" fx:id="btnMedAdd" onAction="#btnAddMedicineClick" />
         <Button text="Delete medicament" fx:id="btnMedDelete" onAction="#btnRemoveMedicineClick" />
+        <Button fx:id="btnUndoMedicine" text="Undo" onAction="#btnUndoMedicineClick"/>
+        <Button fx:id="btnRedoMedicine" text="Redo" onAction="#btnRedoMedicineClick"/>
+
     </VBox>
 
-
+<VBox>
     <Spinner fx:id="spnId" initialValue="0" editable="true" min="0" max="2000000000"/>
     <TextField fx:id="txtName" promptText="Name"/>
     <TextField fx:id="txtManufacturer" promptText="Manufacturer"/>
@@ -54,4 +57,5 @@
 
     <Button text="Add" fx:id="btnAdd" onAction="#btnAddClick" />
     <Button text="Cancel" fx:id="btnCancel" onAction="#btnCancelClick" />
+</VBox>
 </HBox>
